@@ -1,0 +1,1 @@
+generate_ai_image(keyword)
