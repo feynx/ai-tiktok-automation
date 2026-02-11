@@ -1,1 +1,1 @@
-download_gif(keyword)
+ffmpeg -i input.gif output.mp4
