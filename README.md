@@ -1,272 +1,124 @@
-# AI TikTok Automation Project
+🚀 TT-AUTO — AI TikTok Automation System
 
-This project generates Tech/AI educational videos automatically using AI tools and uploads them to TikTok.
+TT-AUTO is an AI-powered TikTok content automation pipeline designed to generate and publish short-form videos automatically.
+This project aims to create passive income content using AI script generation, voice synthesis, video composition, and auto-posting workflows.
 
-## Features
-- AI script generation
-- AI voice narration
-- AI video creation
-- Automated upload workflow
+✨ Features
 
-## Tech Stack
-- Python
-- GitHub
-- AI APIs
+🧠 AI Script Generation
 
-# AI TikTok Automation
+🎙️ AI Voice Generation (Text-to-Speech)
 
-# 📚 AI TikTok Automation Documentation (Learning Note)
+🎬 Automatic Video Generation
 
-ဒီကို README.md ထဲတင်လို့ရတယ်။
+🖼️ Scene-based Media Processing
 
----
+🎵 Background Music Integration
 
-## 🎬 Project Name
+📤 Auto Export Final TikTok-ready Video
 
-AI TikTok Automation (Faceless Tech Channel)
+⚙️ Fully Automated Pipeline
 
----
+🏗️ Project Structure
+ai-tiktok-automation/
+│
+├── assets/
+│   ├── images/
+│   ├── music/
+│   └── media/
+│
+├── output/
+│   └── final videos
+│
+├── src/
+│   ├── generate_script.py
+│   ├── ai_image_fetcher.py
+│   ├── main.py
+│   └── video pipeline modules
+│
+└── README.md
 
-## 🎯 Goal
+🛠️ Tech Stack
 
-Fully automated viral TikTok content system
+Python
 
-Pipeline:
+MoviePy
 
-```
-Topic → AI Script → AI Voice → Auto VisualVideo → TikTok Upload (future)
-```
+AI Text Generation APIs
 
----
+Text-to-Speech Engine
 
-## 🧠 APIs Used
+FFmpeg
 
-### 1️⃣ Groq API
+Git & GitHub
 
-Used for:
+⚡ How It Works
+Input Topic
+     ↓
+AI Script Generation
+     ↓
+Scene Classification
+     ↓
+AI Image / Video Fetching
+     ↓
+Voice Generation
+     ↓
+Background Music Mixing
+     ↓
+Video Rendering
+     ↓
+Final TikTok Video Output
 
-- Script generation
+▶️ Usage
 
-Model:
+Clone the repository:
 
-```
-llama-3.3-70b-versatile
-```
+git clone https://github.com/feynx/ai-tiktok-automation.git
 
----
 
-### 2️⃣ Pexels API
+Move into project directory:
 
-Used for:
+cd ai-tiktok-automation/src
 
-- Stock tech images / videos
-- Visual slideshow generation
 
----
+Run automation:
 
-### 3️⃣ TTS Engine
+python main.py
 
-Used for:
 
-- Female narration voice
-- Script → Voice conversion
+Final video will be exported to:
 
----
+output/final/
 
-## ⚙️ Environment Configuration
+🎵 Copyright-Free Media
 
-`.env`
+This project supports royalty-free background music and stock media.
 
-```
-GROQ_API_KEY=your_key_herePEXELS_API_KEY=your_key_hereGROQ_MODEL=llama-3.3-70b-versatile
-```
+Recommended Sources:
 
----
+Pixabay
 
-## 📁 Project Structure
+Pexels
 
-```
-src/
- ├──main.py
- ├── generate_script.py
- ├── tts_generator.py
- ├── video_generator.py
- └── fetch_pexels.py
+Mixkit
 
-assets/
- ├── images/
- ├── gifs/
- └──audio/
+📌 Project Status
 
-output/
- └── final videos
-```
+🚧 Active Development
+Improving:
 
----
+Video Quality Optimization
 
-## 🔄 Automation Flow
+Auto Posting Integration
 
-### Step 1 — Script Generation
+Multi-language Support
 
-File:
+AI Voice Enhancement
 
-```
-generate_script.py
-```
+🎯 Goal
 
-Function:
+To build a fully automated AI content engine capable of generating consistent short-form social media content for monetization.
 
-```
-generate_script(topic)
-```
+👨‍💻 Author
 
-Uses Groq AI to create viral TikTok narration.
-
----
-
-### Step 2 — Voice Generation
-
-File:
-
-```
-tts_generator.py
-```
-
-Function:
-
-```
-generate_voice(script)
-```
-
-Output:
-
-```
-voice.mp3
-```
-
----
-
-### Step 3 — Visual Fetching
-
-File:
-
-```
-fetch_pexels.py
-```
-
-Function:
-
-```
-fetch_tech_visuals(topic)
-```
-
-Downloads tech-related visuals.
-
----
-
-### Step 4 — Video Generation
-
-File:
-
-```
-video_generator.py
-```
-
-Function:
-
-```
-generate_video(voice_file)
-```
-
-Responsibilities:
-
-- Sync visuals with narration
-- Add slideshow transitions
-- Combine audio + video
-
----
-
-### Step 5 — Main Controller
-
-File:
-
-```
-main.py
-```
-
-Pipeline runner.
-
-```
-Topicinput
-→ Script
-→ Voice
-→Video output
-```
-
----
-
-## 🐞 Issues Fixed During Development
-
-### ❌ Old OpenAI API removed
-
-✔ Migrated to Groq
-
----
-
-### ❌ MoviePy import error
-
-✔ Correct import path fixed
-
----
-
-### ❌ GIF loop / black screen issue
-
-✔ Video clip duration synced with audio
-
----
-
-### ❌ Groq model decommission
-
-✔ Updated to:
-
-```
-llama-3.3-70b-versatile
-```
-
----
-
-## 🔮 Future Upgrades
-
-- Auto subtitle generation
-- Smart scene detection
-- TikTok auto uploader
-- Viral editing effects
-- Multi-language narration
-- Background music AI selection
-
----
-
-## 💰 Monetization Plan
-
-- TikTok Creator Program
-- Affiliate tech reviews
-- AI tool promotions
-- Sponsored content
-
----
-
-# ⭐ Current Version Status
-
-```
-Version:v1PrototypeStatus:StableAutomation Level:70%
-```
-
----
-
-# 🧩 Learning Outcome
-
-- Groq AI integration
-- API environment management
-- MoviePy automation editing
-- AI content pipeline design
-- DevOps style automation mindset
+Phoenix (Feynx)
